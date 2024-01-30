@@ -33,7 +33,7 @@ class DepthEstimationModel:
         print("Image read.")
         depth_numpy = self.model.infer_pil(image)
         self.save_colored_depth(depth_numpy, output_path)
-        # return f"Image saved to {output_path}"
+        return f"Image saved to {output_path}"
 
 
 model = DepthEstimationModel()
