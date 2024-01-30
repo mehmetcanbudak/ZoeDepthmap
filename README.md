@@ -20,7 +20,6 @@ options:
 ```
 ### API Usage
 ```
-uvicorn api:app
 http://127.0.0.1:8051/predict
 ```
 ## Installation
