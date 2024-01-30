@@ -14,4 +14,4 @@ COPY . /app/
 
 EXPOSE 8051
 
-CMD ['uvicorn', "api:app", '0.0.0.0', '8051']
+CMD ["uvicorn", "api:app", "0.0.0.0", "8051"]
