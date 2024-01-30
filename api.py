@@ -4,8 +4,7 @@ import uuid
 from fastapi import FastAPI, File, UploadFile
 
 from predictor import DepthEstimationModel
-
-# from upload import upload_image_to_imgbb
+from upload import upload_image_to_imgbb
 
 app = FastAPI()
 depth_estimator = DepthEstimationModel()
