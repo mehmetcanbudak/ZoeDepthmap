@@ -5,6 +5,7 @@ This repo turns 2d images to depthmap.
 
 ## Usage/Examples
 
+### CLI Usage
 ```bash
 usage: cli.py [-h] input_image output_image
 
@@ -17,8 +18,11 @@ positional arguments:
 options:
   -h, --help    show this help message and exit
 ```
-
-
+### API Usage
+```
+uvicorn api:app
+http://127.0.0.1:8000/predict
+```
 ## Installation
 
 Install ZoeDepth Estimamtion project with pip
